@@ -45,26 +45,28 @@ Requirements (Mac OS X)
 -------------
 `mlstats` needs the following dependencies (tested in Mac OS X 10.9.1 x86_64):
 
-* XCode. Folow the instructions [given] [1] 
-* MacPorts. Follow the instructions [given] [2] 
-* Easy_install. Follow the instructions [given] [3] 
-Homebrew. Follow the instructions [given] [4]. After the installation open your terminal and type : 
+* -XCode. Folow the instructions [given] [1] 
+* -MacPorts. Follow the instructions [given] [2] 
+* -Easy_install. Follow the instructions [given] [3] 
+
+* -Homebrew. Follow the instructions [given] [4]. 
+After the installation open your terminal and type : 
 
 	$ brew install wget
  
-Pip. Open your terminal and type :
+- Pip. Open your terminal and type :
 
 	$ sudo easy_install pip 
 
-* MySQL (mysql-server). Follow the official [MySQL Documentation] [5]
-* python-mysqldb. Follow the instruction given in the [Stackoverflow thread] [6]
+* -MySQL (mysql-server). Follow the official [MySQL Documentation] [5]
+* -python-mysqldb. Follow the instruction given in the [Stackoverflow thread] [6]
 postgresql-server. Open your terminal and type :
 
 	$ sudo port install postgresql91-server
 	$ cd /Library/PostgreSQL
  	$ PATH=$PATH:/Library/PostgreSQL/9.3/bin/
 
-psycopg2. Open your terminal and type :
+-psycopg2. Open your terminal and type :
 
 	$ sudo easy_install psycopg2
 
