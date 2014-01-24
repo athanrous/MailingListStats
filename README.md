@@ -50,7 +50,7 @@ Requirements (Mac OS X)
 * Easy_install. Follow the instructions [given] [3] 
 
 * Homebrew. Follow the instructions [given] [4]
-* 
+
 After the installation open your terminal and type : 
 
 	$ brew install wget
@@ -65,8 +65,12 @@ postgresql-server. Open your terminal and type :
 
 	$ sudo port install postgresql91-server
 	
+Go to the PostgreSQL directory :
+
 	$ cd /Library/PostgreSQL
 	
+Assign the PostgreSQL path to a shell variable :
+
  	$ PATH=$PATH:/Library/PostgreSQL/9.3/bin/
 
 psycopg2. Open your terminal and type :
