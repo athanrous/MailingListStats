@@ -60,9 +60,9 @@ Pip. Open your terminal and type :
 	$ sudo easy_install pip 
 
 * MySQL (mysql-server). Follow the official [MySQL Documentation] [e]
-* python-mysqldb. Follow the instruction given in the [Stackoverflow thread] [f] postgresql-server. 
+* python-mysqldb. Follow the instruction given in the [Stackoverflow thread] [f] 
 
-Open your terminal and type :
+postgresql-server.Open your terminal and type :
 
 	$ sudo port install postgresql91-server
 	
