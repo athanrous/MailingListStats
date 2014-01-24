@@ -64,7 +64,9 @@ Pip. Open your terminal and type :
 postgresql-server. Open your terminal and type :
 
 	$ sudo port install postgresql91-server
+	
 	$ cd /Library/PostgreSQL
+	
  	$ PATH=$PATH:/Library/PostgreSQL/9.3/bin/
 
 psycopg2. Open your terminal and type :
