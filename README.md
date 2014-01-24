@@ -45,11 +45,11 @@ Requirements (Mac OS X)
 -------------
 `mlstats` needs the following dependencies (tested in Mac OS X 10.9.1 x86_64):
 
-* XCode. Folow the instructions [given] [1] 
-* MacPorts. Follow the instructions [given] [2] 
-* Easy_install. Follow the instructions [given] [3] 
+* XCode. Folow the instructions [given] [a] 
+* MacPorts. Follow the instructions [given] [b] 
+* Easy_install. Follow the instructions [given] [c] 
 
-* Homebrew. Follow the instructions [given] [4]
+* Homebrew. Follow the instructions [given] [d]
 
 After the installation open your terminal and type : 
 
@@ -59,8 +59,8 @@ Pip. Open your terminal and type :
 
 	$ sudo easy_install pip 
 
-* MySQL (mysql-server). Follow the official [MySQL Documentation] [5]
-* python-mysqldb. Follow the instruction given in the [Stackoverflow thread] [6]
+* MySQL (mysql-server). Follow the official [MySQL Documentation] [e]
+* python-mysqldb. Follow the instruction given in the [Stackoverflow thread] [f]
 postgresql-server. Open your terminal and type :
 
 	$ sudo port install postgresql91-server
@@ -77,12 +77,12 @@ psycopg2. Open your terminal and type :
 
 	$ sudo easy_install psycopg2
 
-[1]: https://developer.apple.com/xcode/
-[2]: http://guide.macports.org/#installing
-[3]: http://brew.sh/
-[4]: https://pypi.python.org/pypi/setuptools#unix-based-systems-including-mac-os-x
-[5]: http://dev.mysql.com/doc/mysql-macosx-excerpt/5.5/en/
-[6]: http://stackoverflow.com/questions/1448429/how-to-install-mysqldb-python-data-access-library-to-mysql-on-mac-os-x 
+[a]: https://developer.apple.com/xcode/
+[b]: http://guide.macports.org/#installing
+[c]: http://brew.sh/
+[d]: https://pypi.python.org/pypi/setuptools#unix-based-systems-including-mac-os-x
+[e]: http://dev.mysql.com/doc/mysql-macosx-excerpt/5.5/en/
+[f]: http://stackoverflow.com/questions/1448429/how-to-install-mysqldb-python-data-access-library-to-mysql-on-mac-os-x 
 
 
 
