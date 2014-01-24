@@ -41,6 +41,43 @@ Requirements
     * postgresql-server (it has been tested with 8.4 and 9.1)
 
 
+Requirements (Mac OS X)
+-------------
+`mlstats` needs the following dependencies (tested in Mac OS X 10.9.1 x86_64):
+
+
+* XCode. Folow the instructions [given] [1] 
+* MacPorts. Follow the instructions [given] [2] 
+* Easy_install. Follow the instructions [given] [3] 
+* Homebrew. Follow the instructions [given] [4]. After the installation open your terminal and type : 
+
+	$ brew install wget
+ 
+* Pip. Open your terminal and type :
+
+	$ sudo easy_install pip 
+
+* MySQL (mysql-server). Follow the official [MySQL Documentation] [5]
+* python-mysqldb. Follow the instruction given in the [Stackoverflow thread] [6]
+* postgresql-server. Open your terminal and type :
+
+	$ sudo port install postgresql91-server
+	$ cd /Library/PostgreSQL
+ 	$ PATH=$PATH:/Library/PostgreSQL/9.3/bin/
+
+* psycopg2. Open your terminal and type :
+
+	$ sudo easy_install psycopg2
+
+[1]: https://developer.apple.com/xcode/
+[2]: http://guide.macports.org/#installing
+[3]: http://brew.sh/
+[4]: https://pypi.python.org/pypi/setuptools#unix-based-systems-including-mac-os-x
+[5]: http://dev.mysql.com/doc/mysql-macosx-excerpt/5.5/en/
+[6]: http://stackoverflow.com/questions/1448429/how-to-install-mysqldb-python-data-access-library-to-mysql-on-mac-os-x 
+
+
+
 Installation
 ------------
 You can install MLStats running setup.py script:
